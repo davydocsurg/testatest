@@ -30,4 +30,16 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'github' => [
+        'client_id' => env('73fcc53ab71550b9668c'),
+        'client_secret' => env('0a96658be63ce356a6f75df9fc038e2a365840b7'),
+        'redirect' =>   'testatest.herokuapp.com/github/callback',
+    ],
+
+    // 'google' => [
+    //     'client_id'     => env(''),
+    //     'client_secret' => env(''),
+    //     'redirect'      => env('APP_URL') . '/oauth/google/callback',
+    // ],
+
 ];
