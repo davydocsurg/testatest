@@ -21,4 +21,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('auth/social', 'Auth\GithubController@show')->name('social.login');
 Route::get('oauth/{driver}', 'Auth\GithubController@redirectToProvider')->name('social.oauth');
-Route::get('oauth/{driver}/callback', 'Auth\GithubController@handleProviderCallback')->name('social.callback');
+Route::get('{driver}/callback', 'Auth\GithubController@handleProviderCallback')->name('social.callback');
