@@ -16,7 +16,7 @@ class GithubController extends Controller
     }
 
     protected $providers = [
-        'github','facebook','google','twitter'
+        'github' //'facebook','google','twitter'
     ];
 
     public function show()

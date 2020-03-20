@@ -33,7 +33,7 @@ return [
     'github' => [
         'client_id' => env('73fcc53ab71550b9668c'),
         'client_secret' => env('0a96658be63ce356a6f75df9fc038e2a365840b7'),
-        'redirect' =>   'bladetest.herokuapp.com/github/callback',
+        'redirect' =>   'https://bladetest.herokuapp.com/github/callback',
     ],
 
     // 'google' => [

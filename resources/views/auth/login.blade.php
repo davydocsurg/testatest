@@ -56,7 +56,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
-
+<!-- 
                                 <a href="{{ route('social.oauth', 'facebook') }}" class="btn btn-primary btn-block">
                                                     Login with Facebook
                                 </a>
@@ -65,9 +65,9 @@
                                     </a>
                                 <a href="{{ route('social.oauth', 'google') }}" class="btn btn-danger btn-block">
                                         Login with Google
-                                </a>
-                                <a href="{{ route('social.oauth', 'github') }}" class="btn btn-default btn-block">
-                                        Login with Github
+                                </a> -->
+                                <a href="{{ route('social.oauth', 'github') }}" class="btn btn-success btn-md">
+                                        Login with Github <i class="fab fa-github"></i>
                             </a> 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
